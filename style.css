@@ -7,9 +7,19 @@ box-sizing: border-box;
 .container-fluid{
     background-color: rgb(20, 20, 202);
     color: aliceblue !important;
+    border-radius: 36px;
+
+}
+.navbar{
+    margin: 15px;
+    padding: 0.5rem;
 }
 .navbar .nav-link {
-    color: white !important;  
+    color: white !important;
+    font-weight: 500;  
+}
+.nav-link:hover,.nav-link.active {
+    color: rgb(14, 13, 15);
 }
 .navbar .nav-item{
     padding-right: 30px;
@@ -17,6 +27,7 @@ box-sizing: border-box;
 }
 #log{
     padding: 10px;
+    padding-left: 28px;
     height: 12vh;
     width: 8vw;
 }
