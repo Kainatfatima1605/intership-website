@@ -32,4 +32,22 @@ box-sizing: border-box;
     width: 8vw;
 }
 
+.hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+     height: 100vh; 
+     text-align: center; 
+    flex-direction: column; }
+
+h1, p {
+    margin: 0;
+} 
+
+ p {
+    margin-top: 20px; 
+ } 
+
+
+
 
